@@ -1,4 +1,0 @@
-/mnt/500GB/OpenGLExamples/OpenGL/HelloWorldGlw3/CMakeFiles/gl3w.dir
-/mnt/500GB/OpenGLExamples/OpenGL/HelloWorldGlw3/CMakeFiles/hello_opengl.dir
-/mnt/500GB/OpenGLExamples/OpenGL/HelloWorldGlw3/CMakeFiles/edit_cache.dir
-/mnt/500GB/OpenGLExamples/OpenGL/HelloWorldGlw3/CMakeFiles/rebuild_cache.dir
