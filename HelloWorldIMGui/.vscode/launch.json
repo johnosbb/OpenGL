@@ -5,10 +5,51 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "helloworld_bound",
+            "name": "imgui_display",
             "type": "cppdbg",
             "request": "launch",
-            "program": "./helloworld_bound",
+            "program": "${workspaceFolder}/imgui_display",
+            "args": [],
+            "environment": [
+                {
+                    "name": "config",
+                    "value": "Debug"
+                }
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "imgui_select_region",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/imgui_select_region",
+            "args": [],
+            "environment": [
+                {
+                    "name": "config",
+                    "value": "Debug"
+                }
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Running Process",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "${workspaceFolder}/imgui_with_zoom",
+            "processId": "${command:pickProcess}",
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "text": "-enable-pretty-printing"
+                }
+            ]
+        },
+        {
+            "name": "imgui_with_zoom",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/imgui_with_zoom",
             "args": [],
             "environment": [
                 {

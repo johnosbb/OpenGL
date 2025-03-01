@@ -1,2 +1,3 @@
 rm -rf CMakeFiles CMakeCache.txt cmake_install.cmake *.a
-rm -rf Makefile helloworld helloworld_blit helloworld_shader helloworld_mat helloworld_bound
+rm -rf Makefile helloworld helloworld_blit helloworld_shader helloworld_mat helloworld_bound read_number_plate_static read_number_plate
+rm -rf read_number_plate_roi imgui_display imgui_select_region imgui_with_zoom imgui_fit_window_to_image imgui_fscale_image
