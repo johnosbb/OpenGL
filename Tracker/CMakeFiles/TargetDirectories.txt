@@ -1,0 +1,5 @@
+/mnt/500GB/OpenGL/Tracker/CMakeFiles/imgui.dir
+/mnt/500GB/OpenGL/Tracker/CMakeFiles/gl3w.dir
+/mnt/500GB/OpenGL/Tracker/CMakeFiles/track.dir
+/mnt/500GB/OpenGL/Tracker/CMakeFiles/edit_cache.dir
+/mnt/500GB/OpenGL/Tracker/CMakeFiles/rebuild_cache.dir
